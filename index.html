@@ -27,10 +27,17 @@
 			<div class="slides">
 				<section>
 					<h1>A brief history of <span style="color: lightskyblue">programming</span> languages</h1>
+					<aside class="notes">
+						Hi everyone, today I want to tell you about history and evolution of programming languages.
+					</aside>
 				</section>
 				<section>
 					<p>Genealogy of Common Languages</p>
 					<img src="images/Genealogy of Common Languages.jpg" alt="Genealogy of Common Languages" style="max-width: 60%;">
+					<aside class="notes">
+						The history of programming languages spans from documentation of early mechanical computers to modern tools for software development. Early programming languages were highly specialized, relying on mathematical notation and similarly obscure syntax. Throughout the 20th century, research in compiler theory lead to the creation of high-level programming languages, which use a more accessible syntax to communicate instructions.
+						You can see the history of creating and evolution of the major high-level programming languages on the slide. It may seem that the story begins in the early 50s, however the first high-level programming language was Plankalkül, created by Konrad Zuse between 1942 and 1945.
+					</aside>
 				</section>
 				<section>
 					<h2>Zuse’s Plankalkül <span style="color: lightskyblue">(1945)</span></h2>
@@ -51,6 +58,11 @@
 							<li>no goto</li>
 						</ul>
 					</ol>
+					<aside class="notes">
+						It was the first high-level programming language to be designed for a computer.
+						While working on his doctoral dissertation, Zuse developed the first known formal system of algorithm notation capable of handling branches and loops. In 1945, Zuse described Plankalkül in an unpublished book. The collapse of Nazi Germany, however, prevented him from submitting his manuscript.
+						Plankalkül includes assignment statements, subroutines, conditional statements, iteration, floating point arithmetic, arrays, hierarchical record structures, assertions, exception handling, and other advanced features such as goal-directed execution. 
+					</aside>
 				</section>
 				<section>
 					<h2>Pseudocodes</h2>
@@ -68,6 +80,11 @@
 							<li>Only 700 words left for user program</li>
 						</ul>
 					</ol>
+					<aside class="notes">
+						The first functioning programming languages designed to communicate instructions to a computer were written in the early 1950s. John Mauchly's Short Code, proposed in 1949 and originally known as Brief Code, was one of the first high-level languages ever developed for an electronic computer. William Schmitt implemented a version of Brief Code in 1949 for the BINAC computer, though it was never debugged and tested. Unlike machine code, Short Code statements represented mathematical expressions in understandable form. However, the program had to be translated into machine code every time it ran, making the process much slower than running the equivalent machine code.
+						Speedcoding was the first high-level programming language created for an IBM computer. The language was developed by John Backus in 1953 for the IBM 701 to support computation with floating point numbers. Here high level means symbolic and aiming for natural language expressivity as a goal as opposed to machine or hardware instruction oriented coding.
+						Speedcoding was also the first implementation of decimal input/output operations. Although it substantially reduced the effort of writing many jobs, the running time of a program that was written with the help of Speedcoding was usually ten to twenty times that of machine code. The interpreter took 310 memory words, about 30% of the memory available on a 701.
+					</aside>
 				</section>
 				<section>
 					<h2>FORTRAN <span style="color: lightskyblue">(mid-late 1950’s)</span></h2>
@@ -82,6 +99,9 @@
 						<li>FORTRAN 95 - <span style="color: lightskyblue">1995</span></li>
 					</ol>
 					<p>Dramatically changed forever the way computers are used</p>
+					<aside class="notes">
+						In 1954, FORTRAN was invented at IBM by a team led by John Backus; it was the first widely used high-level general purpose programming language to have a functional implementation, as opposed to just a design on paper. Originally developed for scientific and engineering applications, it is a popular language for high-performance computing for now. FORTRAN dramatically changed forever the way computers are used. It encompasses a lineage of versions, each of which evolved to add extensions to the language while usually retaining compatibility with prior versions.
+					</aside>
 				</section>
 				<section>
 					<h2>FORTRAN <span style="color: lightskyblue">in depth</span></h2>
@@ -108,6 +128,9 @@
 							<li>High performance</li>
 						</ul>
 					</ol>
+					<aside class="notes">
+						Successive versions have added support for independent compilation (FORTRAN II), data typing (FORTRAN IV), structured programming and processing of character-based data (FORTRAN 77), array programming, modular programming and generic programming (Fortran 90), high performance (Fortran 95).
+					</aside>
 				</section>
 				<section>
 					<h2>LISP <span style="color: lightskyblue">(1959)</span></h2>
@@ -120,6 +143,9 @@
 						<li>Object-oriented versions: <span style="color: lightskyblue">Flavors, LOOPS, CLOS</span></li>
 						<li>Related languages: <span style="color: lightskyblue">ML, Miranda, Haskell</span></li>
 					</ol>
+					<aside class="notes">
+						Other languages still in use today include LISP (1958), invented by John McCarthy and ...
+					</aside>
 				</section>
 				<section>
 					<h2>COBOL <span style="color: lightskyblue">(1960)</span></h2>
@@ -140,6 +166,9 @@
 							<li>Separate data division</li>
 						</ul>
 					</ol>
+					<aside class="notes">
+						.. COBOL (1959), created by the Short Range Committee.
+					</aside>
 				</section>
 				<section>
 					<h2>ALGOL</h2>
@@ -151,6 +180,13 @@
 							<li>How the language was described</li>
 						</ul>
 					</ol>
+					<aside class="notes">
+						Another milestone in the late 1950s was the publication, by a committee of American and European computer scientists, of "a new language for algorithms"; the ALGOL 60 Report. This report consolidated many ideas circulating at the time and featured three key language innovations:
+						-	nested block structure: code sequences and associated declarations could be grouped into blocks without having to be turned into separate, explicitly named procedures;
+						-	lexical scoping: a block could have its own private variables, procedures and functions, invisible to code outside that block, that is, information hiding.
+						Another innovation, related to this, was in how the language was described:
+						-	a mathematically exact notation, Backus–Naur form (BNF), was used to describe the language's syntax. Nearly all subsequent programming languages have used a variant of BNF to describe the context-free portion of their syntax.
+					</aside>
 				</section>
 				<section>
 					<h2>ALGOL 68 <span style="color: lightskyblue">(1968)</span></h2>
@@ -158,6 +194,11 @@
 						<li>Based on <span style="color: lightskyblue">ALGOL 60</span></li>
 						<li>Syntax and semantics became even more orthogonal</li>
 					</ol>
+					<aside class="notes">
+						Algol's key ideas were continued, producing ALGOL 68 (9 slide):
+						-	syntax and semantics became even more orthogonal, with anonymous routines, a recursive typing system with higher-order functions, etc.;
+						-	not only the context-free part, but the full language syntax and semantics were defined formally, in terms of Van Wijngaarden grammar, a formalism designed specifically for this purpose.
+					</aside>
 				</section>
 				<section>
 					<h2>Pascal <span style="color: lightskyblue">(1971)</span></h2>
@@ -170,6 +211,9 @@
 							<li>Occam</li>
 						</ul>
 					</ol>
+					<aside class="notes">
+						One of language designers, Niklaus Wirth actually walked out of the design committee to create the simpler Pascal language
+					</aside>
 				</section>
 				<section>
 					<h2>BASIC <span style="color: lightskyblue">(1964)</span></h2>
@@ -178,6 +222,9 @@
 						<li>Designed by Kemeny & Kurtz at Dartmouth</li>
 						<li>Current popular dialect: <span style="color: lightskyblue">Visual BASIC</span></li>
 					</ol>
+					<aside class="notes">
+						Another language intended for teaching how to program was BASIC
+					</aside>
 				</section>
 				<section>
 					<h2>SIMULA 67 <span style="color: lightskyblue">(1967)</span></h2>
@@ -187,6 +234,10 @@
 						<li>Based on <span style="color: lightskyblue">ALGOL 60</span> and <span style="color: lightskyblue">SIMULA I</span></li>
 						<li><span style="color: lightskyblue">Primary Contribution:</span> Classes, objects, and inheritance</li>
 					</ol>
+					<aside class="notes">
+						The period from the late 1960s to the late 1970s brought a major flowering of programming languages. Most of the major language paradigms now in use were invented in this period:
+						-	Simula, invented in the late 1960s by Nygaard and Dahl as a superset of Algol 60, was the first language designed to support object-oriented programming.
+					</aside>
 				</section>
 				<section>
 					<h2>C <span style="color: lightskyblue">(1972)</span></h2>
@@ -197,6 +248,9 @@
 						<li>Initially spread through <span style="color: lightskyblue">UNIX</span></li>
 						<li>Flexible, but unsafe</li>
 					</ol>
+					<aside class="notes">
+						C, an early systems programming language, was developed by Dennis Ritchie and Ken Thompson at Bell Labs between 1969 and 1973.
+					</aside>
 				</section>
 				<section>
 					<h2>Smalltalk <span style="color: lightskyblue">(1972-1980)</span></h2>
@@ -207,6 +261,9 @@
 						<li><span style="color: lightskyblue">First full implementation of an object-oriented language</span></li>
 						<li>Pioneered the GUI everyone now uses</li>
 					</ol>
+					<aside class="notes">
+						Smalltalk (mid-1970s) provided a complete ground-up design of an object-oriented language.
+					</aside>
 				</section>
 				<section>
 					<h2>Prolog <span style="color: lightskyblue">(1972)</span></h2>
@@ -215,6 +272,9 @@
 						<li>Programs are sets of facts and rules</li>
 						<li>Not proven to be widely applicable</li>
 					</ol>
+					<aside class="notes">
+						Prolog, designed in 1972 by Colmerauer, Roussel, and Kowalski, was the first logic programming language.
+					</aside>
 				</section>
 				<section>
 					<h2>Scheme</h2>
@@ -225,6 +285,9 @@
 						<li>Functions as first-class entities</li>
 						<li>Simple syntax (and small size) make it ideal for educational applications</li>
 					</ol>
+					<aside class="notes">
+						Scheme, created during the 1970s at the MIT AI Lab, was the first dialect of Lisp to choose lexical scope, giving stronger support for functional programming.
+					</aside>
 				</section>
 				<section>
 					<h2>C++ <span style="color: lightskyblue">(1985)</span></h2>
@@ -240,6 +303,9 @@
 						<li>Large and complex</li>
 						<li>Rapidly grew in popularity, along with OOP</li>
 					</ol>
+					<aside class="notes">
+						The 1980s were years of relative consolidation in imperative languages. Rather than inventing new paradigms, all of these movements elaborated upon the ideas invented in the previous decade. C++ combined object-oriented and systems programming.
+					</aside>
 				</section>
 				<section>
 					<h2>Ada <span style="color: lightskyblue">1983 (began in mid-1970s)</span></h2>
@@ -261,6 +327,11 @@
 							<li>More flexible libraries</li>
 						</ul>
 					</ol>
+					<aside class="notes">
+						The United States government standardized Ada, a systems programming language intended for use by defense contractors. 
+						One important new trend in language design was an increased focus on programming for large-scale systems through the use of modules, or large-scale organizational units of code. 
+						Language technology continued along these lines well into the 1990s.
+					</aside>
 				</section>
 				<section>
 					<h2>Scripting Languages	for the Web</h2>
@@ -279,6 +350,9 @@
 							<li>An OO interpreted scripting language</li>
 						</ul>
 					</ol>
+					<aside class="notes">
+						The rapid growth of the Internet in the mid-1990s was the next major historic event in programming languages. By opening up a radically new platform for computer systems, the Internet created an opportunity for new languages to be adopted. In particular, the JavaScript programming language rose to popularity because of its early integration with the Netscape Navigator web browser. Various other scripting languages achieved widespread use in developing customized applications for web servers such as PHP.
+					</aside>
 				</section>
 				<section>
 					<h2>Java <span style="color: lightskyblue">(early 1990’s)</span></h2>
@@ -299,6 +373,9 @@
 							<li>Purely interpreted</li>
 						</ul>
 					</ol>
+					<aside class="notes">
+						This era began the spread of functional languages. A big driving philosophy was programmer productivity. Many "rapid application development" (RAD) languages emerged, which usually came with an IDE, garbage collection, and were descendants of older languages. All such languages were object-oriented. These included Object Pascal, Visual Basic, and Java. Java in particular received much attention.
+					</aside>
 				</section>
 				<section>
 					<h2>C# <span style="color: lightskyblue">(2000)</span></h2>
@@ -311,6 +388,10 @@
 							that were left out of <span style="color: lightskyblue">Java</span></li>
 						<li>Can be used for both <span style="color: lightskyblue">.NET</span> applications for the Web, as well as a general-purpose programming language</li>
 					</ol>
+					<aside class="notes">
+						One of the new programming languages is C#.
+						C#, developed by Microsoft, is a general-purpose, multi-paradigm programming language encompassing strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines. 
+					</aside>
 				</section>
 				<section>
 					<h2><span style="color: lightskyblue">Summary</span></h2>
@@ -324,10 +405,23 @@
 							<li>etc</li>
 						</ul>
 					</ol>
+					<aside class="notes">
+						Programming language evolution continues, in both industry and research. Some of the recent trends have included:
+						-	Increasing support for functional programming in mainstream languages used commercially, including pure functional programming for making code easier to reason about and easier to parallelise.
+						-	Constructs to support concurrent and distributed programming.
+						-	Mechanisms for adding security and reliability verification to the language
+						-	Component-oriented software development.
+						-	etc
+					</aside>
 				</section>
 				<section>
 					<h2>TIOBE</h2>
 					<img src="images/TIOBE.jpg" alt="TIOBE" style="max-width: 60%;">
+					<aside class="notes">
+						In conclusion, I want to present the popularity rating of common programming languages.
+						The TIOBE index is an indicator of the popularity of programming languages and it based on the number of skilled engineers world-wide, courses and third party vendors
+						Thank you for attention, bye
+					</aside>
 				</section>
 			</div>
 		</div>
